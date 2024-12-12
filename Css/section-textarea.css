@@ -1,0 +1,29 @@
+.fig-textarea {
+    /* background: red; */
+    padding: 0.8em 2.5em;
+
+}
+
+.picture-textarea label {
+    /* background: green; */
+    position: relative;
+}
+
+.picture-textarea label h3 {
+    /* background: green; */
+    font-weight: 700;
+    position: absolute;
+    background: #fff;
+    margin-left: 1em;
+    margin-top: -0.8em;
+    padding-inline: 0.5em;
+}
+
+.picture-textarea label textarea {
+    /* background: yellow; */
+    width: 100%;
+    height: 13em;
+    background: none;
+    padding: 1.3em;
+    font-family: 'poppins';
+}

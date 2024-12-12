@@ -1,0 +1,96 @@
+.section-main {
+    /* background: red; */
+    height: 100%;
+    /* padding: 1em; */
+}
+
+.section-article-picture {
+    background: var(--primary);
+    color: #fff;
+    padding: 0.8em 1.5em;
+    text-align: center;
+    width: 100%;
+    font-size: 1.3em;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 0.05em;
+}
+
+.section-article-picture i {
+    cursor: pointer;
+}
+
+.pic-legend legend {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2.5em;
+}
+
+
+/* SECTION NAV PROFILE */
+.section-main-profile {
+    /* background: gray; */
+}
+
+.section-article-profile {
+    padding: 1.5em 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #58585633;
+}
+
+.section-article-profile .profile-verification {
+    width: 8.5em;
+    height: 8.5em;
+    object-fit: contain;
+    /* background: red; */
+}
+
+.figure-img {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+    /* background: green; */
+    width: max-content;
+}
+
+
+.picture-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    /* background: green; */
+    width: max-content;
+}
+
+.picture-text h1 {
+    font-size: 2.2em;
+}
+
+.email-p {
+    font-size: 1.3em;
+    color: #585856;
+}
+
+.figure-text-verification {
+    /* background: red; */
+    text-align: end;
+}
+
+.figure-text-verification h1 {
+    font-size: 2.2em;
+    font-weight: 700;
+    color: #585856;
+}
+
+/* 
+.figure-text-verification p {
+    font-size: 1.3em;
+} */

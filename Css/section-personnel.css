@@ -1,0 +1,76 @@
+.fig-personnel {
+    padding: 0.8em 2.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.figure-desc {
+    /* background: red; */
+}
+
+.figure-desc .col-desc {
+    /* background: green; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 1em;
+    width: 85%;
+}
+
+.figure-desc .col-desc legend {
+    /* background: yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.figure-desc .col-desc legend :is(p, strong) {
+    flex: 1;
+    font-size: 1.1em;
+}
+
+.figure-desc .col-desc legend strong {
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.fig-message {
+    padding: 0.8em 2.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.row-lab {
+    /* background: red; */
+    height: max-content;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: max-content;
+    cursor: pointer;
+    outline: 1px solid #585856;
+
+}
+
+.row-lab h3 {
+    /* background: green; */
+    text-align: center;
+    padding: 0.5em;
+}
+
+.row-lab i {
+    padding: 0.5em 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.row-lab i:first-child {
+    border-right: 1px solid #585856;
+
+}

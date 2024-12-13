@@ -7,11 +7,50 @@
 
 }
 
+
+@media screen and (max-width: 340px) {
+
+
+    .row-btn {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+}
+
+@media screen and (max-width: 354px) {
+
+
+
+    .picture-textarea label h3 {
+        /* background: green !important; */
+        margin-left: 0 !important;
+        margin-bottom: 1em;
+        position: initial !important;
+
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .figure-desc .col-desc {
+        /* background: greenyellow; */
+        width: 100% !important;
+    }
+
+    .figure-desc .col-desc legend {
+        /* background: yellow; */
+        display: flex;
+        flex-direction: column !important;
+        gap: 0.5em;
+        justify-content: space-between;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .section-article-profile {
         display: flex;
         flex-direction: column !important;
-        gap: 2.5em;
+        /* gap: 2.5em; */
         align-items: center;
     }
 
@@ -38,9 +77,71 @@
     }
 }
 
+@media screen and (max-width: 848px) {
+    .btn-picture {
+        display: flex;
+        flex-direction: column-reverse !important;
+        gap: 1em;
+        /* background: red; */
+
+    }
+
+    .btn-picture button {
+        width: 100%;
+    }
+
+
+    .row-btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center !important;
+    }
+}
+
 @media screen and (max-width: 930px) {
     html {
         font-size: 0.8em;
+    }
+
+
+    .section-article-picture {
+        padding: 0 !important;
+        text-align: center;
+        width: 100%;
+        font-size: 1.3em;
+        font-weight: 500;
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+        gap: 0 !important;
+        letter-spacing: 0.05em;
+    }
+
+    .pic-arrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .section-article-picture picture {
+        /* background: green !important; */
+        width: 100% !important;
+        background: #1a86eb;
+        padding: 0.8em 1.5em !important;
+        border-bottom: 1px solid #ffffff54;
+
+    }
+
+    .pic-legend h5 {
+        text-align: left !important;
+    }
+
+    .x-none {
+        display: block !important;
+    }
+
+    .x-block {
+        display: none !important;
     }
 
     .figure-img {

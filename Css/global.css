@@ -86,9 +86,10 @@ input:read-only {
 
 body {
     background: var(--secondary);
+    /* height: 100%; */
 }
 
 #main {
     background: #fff;
-    /* height: 100vh; */
+    /* height: 100%; */
 }

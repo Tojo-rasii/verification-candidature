@@ -1,7 +1,18 @@
+.hr {
+    /* background: red; */
+    padding: 0.8em 2.5em;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+}
+
+.hr hr {
+    border: 0.5px solid #5858562c;
+
+}
+
 .fig-textarea {
     /* background: red; */
     padding: 0.8em 2.5em;
-
 }
 
 .picture-textarea label {
@@ -17,6 +28,7 @@
     margin-left: 1em;
     margin-top: -0.8em;
     padding-inline: 0.5em;
+    font-size: 1.2em;
 }
 
 .picture-textarea label textarea {
@@ -25,5 +37,6 @@
     height: 13em;
     background: none;
     padding: 1.3em;
+    border: 1px solid #58585673;
     font-family: 'poppins';
 }

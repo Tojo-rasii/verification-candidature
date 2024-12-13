@@ -1,11 +1,58 @@
+@media screen and (min-width: 930px) and (max-width: 1036px) {
+    .figure-desc .col-desc legend {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+
+
+}
+
+@media screen and (min-width: 930px) and (max-width: 1258px) {
+
+
+    .section-row-table .article-table1 {
+        /* background: green; */
+        width: 50%;
+    }
+
+
+}
+
+@media screen and (min-width: 930px) and (max-width: 1001px) {
+    .row-lab h4 {
+        /* background: red; */
+        text-wrap: nowrap;
+        overflow: hidden;
+        width: 10vw;
+        text-overflow: ellipsis;
+    }
+
+    .row-lab {
+        /* background: yellow; */
+        width: 100% !important;
+        /* max-width: 100%; */
+        justify-content: start !important;
+    }
+
+    /* 
+    .fig-title-table h1 {
+        font-size: 1.2em !important;
+        font-weight: 700;
+        color: #2892F5;
+    } */
+
+
+}
+
 @media screen and (max-width: 1278px) {
 
     .picture-table figure {
         width: 100%;
         /* background: green !important; */
         /* padding: 1em; */
-            overflow-x: auto;
-            /* height: 2em;
+        overflow-x: auto;
+        /* height: 2em;
         max-height: 2em !important; */
         /* overflow-x: auto; */
     }

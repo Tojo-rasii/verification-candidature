@@ -30,6 +30,16 @@
 .x-block {
     display: block;
 }
+/* 
+.th-check {
+    flex: 2;
+} */
+
+.row-check {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 .pic-legend legend {
     display: flex;

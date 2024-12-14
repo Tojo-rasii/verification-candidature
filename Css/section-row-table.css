@@ -31,15 +31,6 @@
     color: #2892F5;
 }
 
-.inpt-silver {
-    border: none;
-    background: #5858561A;
-    outline: none;
-    border-radius: 0.5em;
-    padding: 1em;
-    font-size: 1em;
-}
-
 
 .figure-title-secondary {
     display: flex;
@@ -101,6 +92,16 @@
     row-gap: 1.5em;
 }
 
+.row-check {
+    justify-content: space-between !important;
+    /* background: red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    /* gap: 0.5em; */
+}
+
 .row-th {
     display: flex;
     flex-direction: row;
@@ -120,7 +121,7 @@
 }
 
 .pdf {
-    width: 100%;
+    /* width: 100%; */
     /* background: red; */
 }
 
@@ -143,39 +144,7 @@
     color: #fff;
 }
 
-.head-apercu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    /* background: red; */
-    padding: 2em 0;
-}
 
-.modal-hr1 {
-    /* background: red; */
-}
-
-.modal-hr2 {
-    /* background: red; */
-}
-
-.modal-hr1 hr {
-    margin-top: 1em;
-    border: 1px solid #03A84E;
-}
-
-.modal-hr1 hr {
-    margin-top: 1em;
-}
-
-.modal-hr2 hr {
-    margin-top: 1em;
-}
-
-.modal-hr2 hr {
-    margin-top: 1em;
-}
 
 .title-doc {
     font-weight: 700;
@@ -196,19 +165,67 @@
     border-spacing: 0 1em;
     margin-top: 0 !important;
     /* background: green; */
+
 }
 
-.table-doc thead tr th {
+.tr {
+    /* background: yellow !important; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
     border: 1px solid #58585654;
-    text-wrap: nowrap;
-    /* background: green; */
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 !important;
 }
 
+
+.inpt-silver {
+    border: none;
+    background: #5858561A;
+    outline: none;
+    border-radius: 0.5em;
+    padding: 1em;
+    font-size: 1em;
+    flex: 1;
+}
+
+
+.th {
+    text-wrap: nowrap;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+    /* background: red !important; */
+    padding: 0.8em 1em;
+    flex: 1;
+    height: 4.5em;
+    max-height: 100%;
+    border: 1px solid #58585654;
+
+}
+
+.t-head {
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.p-wrap {
+    text-wrap: wrap;
+    font-weight: 500;
+    width: 80%;
+    /* background: red */
+}
 
 
 .table-parent {
     /* background: green !important; */
-    overflow: auto;
+    /* overflow: auto; */
     /* display: none !important; */
     width: 100% !important;
 

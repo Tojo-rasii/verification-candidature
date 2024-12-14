@@ -77,6 +77,21 @@
     }
 }
 
+@media screen and (max-width: 678px) {}
+
+@media screen and (max-width: 765px) {
+    .tr {
+        display: flex;
+        flex-direction: column !important;
+
+
+    }
+
+    .th {
+        width: 100% !important;
+    }
+}
+
 @media screen and (max-width: 848px) {
     .btn-picture {
         display: flex;
@@ -84,6 +99,10 @@
         gap: 1em;
         /* background: red; */
 
+    }
+
+    .p-wrap {
+        text-wrap: nowrap !important;
     }
 
     .btn-picture button {

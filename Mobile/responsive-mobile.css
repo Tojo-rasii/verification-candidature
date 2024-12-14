@@ -90,6 +90,18 @@
     .th {
         width: 100% !important;
     }
+
+    .inpt-silver {
+        border: none;
+        /* background: red !important; */
+        outline: none;
+        border-radius: 0.5em;
+        padding: 1em;
+        font-size: 1em;
+        flex: 0 !important;
+        min-width: 100% !important;
+        /* max-width: 100% !important; */
+    }
 }
 
 @media screen and (max-width: 848px) {

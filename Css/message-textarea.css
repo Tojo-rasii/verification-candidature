@@ -1,0 +1,33 @@
+/* Initial styles for the sliding container */
+.slide-container {
+    max-height: 0; /* Start hidden */
+    overflow: hidden; /* Hide overflowing content */
+    transition: max-height 0.3s ease; /* Smooth slide effect */
+}
+
+/* Expanded state */
+.slide-container.expanded {
+    max-height: 200px; 
+}
+
+/* Textarea styles */
+#message-textarea {
+    width: 100%;
+    height:8em; 
+    padding: 10px;
+    font-size: 0.98em;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    color:#6b6b6b;
+    margin-top:0.5em;
+    line-height:1.5em;
+    cursor:default;
+}
+/* Chevron icon rotation */
+ /* #chevron-icon {
+    transition: transform 0.3s ease; 
+}  */
+
+#chevron-icon.rotated {
+    transform: rotate(180deg); /* Rotate the chevron */
+}

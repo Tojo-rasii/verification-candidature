@@ -22,11 +22,12 @@
 @media screen and (min-width: 930px) and (max-width: 1001px) {
     .row-lab h4 {
         /* background: red; */
-        text-wrap: nowrap;
-        overflow: hidden;
-        width: 10vw;
+        /* text-wrap: nowrap;
+        overflow: hidden; */
+        width: 100%;
         text-overflow: ellipsis;
     }
+
 
     .row-lab {
         /* background: yellow; */

@@ -3,12 +3,11 @@ const popbtnicClose = document.querySelector('.close-ic-article');
 const poparticleic = document.getElementById('my-pop-ic');
 
 popbtnic.addEventListener('click', function () {
-    // alert('red')
-
     poparticleic.style.display = 'block';
-})
-popbtnicClose.addEventListener('click', function () {
-    // alert('red')
+    document.body.style.overflow = 'hidden'; // Désactiver le scroll du body
+});
 
+popbtnicClose.addEventListener('click', function () {
     poparticleic.style.display = 'none';
-})
+    document.body.style.overflow = ''; // Réactiver le scroll du body
+});

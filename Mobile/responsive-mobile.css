@@ -209,6 +209,15 @@
 
     }
 
+        .figure-img {
+            display: flex;
+            flex-direction: row;
+            gap: 1em !important;
+            align-items: center;
+            /* background: green; */
+            width: 100%;
+        }
+
     .section-article-picture picture {
         /* background: green !important; */
         /* width: 100% !important; */
@@ -248,7 +257,7 @@
     .picture-text {
         display: flex;
         flex-direction: column !important;
-        gap: 0.5em !important;
+        gap: 0.8em !important;
         /* flex: 1 100%; */
         /* background: red; */
         width: 100%;
@@ -295,7 +304,7 @@
 
     .picture-text h1,
     .figure-text-verification h1 {
-        font-size: 1.8em !important;
+        font-size: 1.5em !important;
         /* font-weight: 450; */
     }
 
@@ -309,6 +318,12 @@
         flex-direction: row;
         align-items: first baseline;
         justify-content: space-between;
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        gap: 0.4em;
     }
 
     .list-btn i {

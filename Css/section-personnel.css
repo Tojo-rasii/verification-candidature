@@ -47,7 +47,9 @@
     flex-direction: column;
     gap: 1em;
 }
-
+  .close-ic-article {
+      display: none;
+  }
 .row-lab {
     /* background: red; */
     height: max-content;

@@ -15,6 +15,9 @@
     flex-wrap: wrap;
     gap: 1em;
 }
+.goOut-btn{
+    display: none;
+}
 
 .bg-silver {
     background: #fff;

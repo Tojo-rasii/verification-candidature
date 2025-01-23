@@ -346,8 +346,8 @@
     }
 
     .section-article-profile .profile-verification {
-        width: 7em !important;
-        height: 7em !important;
+        width: 6.5em !important;
+        height: 6.5em !important;
         object-fit: contain;
         /* background: red; */
     }
@@ -358,17 +358,17 @@
         display: flex;
         flex-direction: row !important;
         justify-content: space-between;
-        align-items: center;
+        align-items: last baseline;
         text-align: left !important;
     }
 
     .email-p {
-        font-size: 1em !important;
+        font-size: 0.9em !important;
     }
 
     .picture-text h1,
     .figure-text-verification h1 {
-        font-size: 1.5em !important;
+        font-size: 1.4em !important;
         /* font-weight: 450; */
     }
 
@@ -380,7 +380,7 @@
         /* background: red; */
         display: flex;
         flex-direction: row;
-        align-items: first baseline;
+        /* align-items: first baseline; */
         justify-content: space-between;
     }
 
@@ -401,7 +401,7 @@
     }
 
     .figure-text-verification p {
-        font-size: 1em !important;
+        font-size: 0.9em !important;
     }
 
 

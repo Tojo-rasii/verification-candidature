@@ -103,6 +103,12 @@
     /* gap: 0.5em; */
 }
 
+.mobile-check-down {
+    display: none;
+}
+
+
+
 .row-th {
     display: flex;
     flex-direction: row;

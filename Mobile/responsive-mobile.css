@@ -77,8 +77,8 @@
     .tr {
         display: flex;
         flex-direction: column !important;
-
-
+        gap: 0.5em;
+        border: none !important;
     }
 
     .th {
@@ -95,6 +95,68 @@
         flex: 0 !important;
         min-width: 100% !important;
         /* max-width: 100% !important; */
+    }
+
+    /* FIG CHECK TABLE */
+    .mobile-check-down {
+        /* display: block !important; */
+        display: flex !important;
+        flex-direction: row;
+        justify-content: end;
+        gap: 0.5em;
+        padding: 0.6em;
+        /* background: green; */
+        width: 100%;
+    }
+
+    .th-check {
+        /* background: red; */
+        display: none !important;
+    }
+
+    .row-th {
+        /* background: red; */
+        width: 100%;
+    }
+
+    .th {
+        /* background: blue; */
+        padding: 0.5em !important;
+    }
+
+    .th:first-child {
+        /* background: blue; */
+        padding: 0 !important;
+    }
+
+    body .p-wrap {
+        text-wrap: wrap !important;
+    }
+
+    .see-mobile {
+        /* background: red; */
+        padding: 0.6em;
+        border-right: 1px solid #58585654;
+    }
+
+    .th-commentaire {
+        /* background: red; */
+        border-top: none !important;
+        margin-top: -0.5em;
+    }
+
+    .tr .hidden-slide-mobile {
+        display: none;
+
+    }
+
+    .tr .hidden-slide-mobile.show {
+        display: block;
+    }
+
+    .i-click-slide-mobile.active {
+        transform: rotate(180deg);
+        /* Exemple pour faire pivoter l'icône */
     }
 }
 
@@ -167,6 +229,8 @@
         /* background: red; */
         padding: 0.8em 1em !important;
     }
+
+
 }
 
 @media screen and (max-width: 930px) {
@@ -209,14 +273,14 @@
 
     }
 
-        .figure-img {
-            display: flex;
-            flex-direction: row;
-            gap: 1em !important;
-            align-items: center;
-            /* background: green; */
-            width: 100%;
-        }
+    .figure-img {
+        display: flex;
+        flex-direction: row;
+        gap: 1em !important;
+        align-items: center;
+        /* background: green; */
+        width: 100%;
+    }
 
     .section-article-picture picture {
         /* background: green !important; */
@@ -320,7 +384,7 @@
         justify-content: space-between;
     }
 
-    .text{
+    .text {
         display: flex;
         flex-direction: column;
         gap: 0.4em;

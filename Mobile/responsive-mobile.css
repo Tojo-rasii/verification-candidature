@@ -237,7 +237,14 @@
     html {
         font-size: 0.8em;
     }
-
+.section-btn-verification{
+    position: relative !important;
+    /* padding: 1em; */
+    background: #fff;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+}
 
     .section-article-picture {
         padding: 0 !important;

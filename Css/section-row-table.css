@@ -3,7 +3,39 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+ height: 100%;
+ max-height: 100%;
+    flex: 1;
+    /* scroll-padding-bottom: 25em; */
+    /* position: sticky; */
+    /* padding-bottom: 20em; */
+    overflow-y: auto;
 }
+
+/* @media screen and (max-width: 1700px) {
+   .section-row-table {
+  
+    height: 50%;
+    max-height: 100%;
+}
+.section-btn-verification{
+    position:relative !important;
+
+    width: 100%;
+
+}
+} */
+
+/* @media screen and (max-height: 1282px) {
+   .section-row-table {
+    background: red !important;
+  
+    height: 100%;
+    max-height: 74% !important;
+}
+
+} */
+
 
 .section-row-table .article-table1 {
     /* background: green; */
@@ -20,6 +52,13 @@
 .fig-title-table {
     padding: 1.2em 2.5em;
     /* background: yellow; */
+}
+
+form{
+    /* background: red; */
+    height: 100%;
+    position: relative;
+    /* padding-bottom: 5em; */
 }
 
 .padding-table {

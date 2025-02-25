@@ -1,7 +1,11 @@
 .section-main {
-    /* background: red; */
+    background: #fff;
     height: 100%;
     /* padding: 1em; */
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 85% !important;
 }
 
 .section-article-picture {

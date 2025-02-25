@@ -1,8 +1,19 @@
+.section-btn-verification{
+    /* position: sticky; */
+    /* padding: 1em; */
+    background: #fff;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+}
 .btn-picture {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
+    height: 100%;
+    max-height: max-content;
     padding: 1.5em 2.5em;
     /* background: red; */
     border-top: 1px solid #58585633;

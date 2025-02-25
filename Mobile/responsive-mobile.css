@@ -471,15 +471,30 @@
 
 .section-main {
     background: #fff;
-    height: 100%;
+    height: max-content !important;
     /* padding: 1em; */
-    position: fixed;
+    position: absolute !important;
     top: 0;
     right: 0;
     min-width: 100% !important;
 }
+
+#div {
+    position: fixed;
+    overflow-y: auto !important;
+    height: 100%;
+    /* padding: 1em; */
+    background: rgba(0, 0, 0, 0.336);
+    width: 100%;
+    display: block;
+}
+
+}
+
+@media screen and (max-width: 930px) and (max-height:1024px) {
 .section-btn-verification{
-    position: relative !important;
+    position:initial !important;
  
 }
+
 }
